@@ -1,0 +1,26 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# Your custom dataset
+
+#path: ./customdata  # dataset root dir
+train: ./customdata/train/images  # train images (relative to 'path')
+val: ./customdata/valid/images  # val images (relative to 'path')
+test: ./customdata/test/images  # test images (optional, relative to 'path')
+
+# Number of classes
+nc: 9
+
+# Classes
+names:
+  0: SG
+  1: IL
+  2: RCP
+  3: CL
+  4: RPV
+  5: SIT
+  6: PRZ
+  7: HL
+  8: SG-Abnml
+
+ 
+
+
